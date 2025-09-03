@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script src="https://kit.fontawesome.com/ccd234d28c.js" crossorigin="anonymous"></script>
+    <style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    nav {
+        background: #333;
+        padding: 10px 0;
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        margin: 0 20px;
+    }
+    a {
+        color: white;
+        font-size: 22px;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+    </style>
+</head>
+<body>
+
+
+        <nav>
+            <div style="display: flex; align-items: center; justify-content: space-between; max-width: 1100px; margin: 0 auto;">
+                <div style="flex: 1;">
+                    <h3 style="color: white; margin: 0 30px 0 10px; font-size: 26px;">Coding</h3>
+                </div>
+                <div style="display: flex; align-items: center; flex: 3; justify-content: center;">
+                    <ul style="margin: 0 20px 0 0;">
+                        <li style="display: inline;"><a href="#"><i class="fas fa-home"></i></a></li>
+                        <li style="display: inline;"><a href="#"><i class="fas fa-user"></i></a></li>
+                    </ul>
+                    <form style="display: flex; align-items: center;" onsubmit="return false;">
+                        <input type="text" placeholder="Search..." style="padding: 6px 10px; border-radius: 4px 0 0 4px; border: none; outline: none; font-size: 16px;">
+                        <button type="submit" style="padding: 6px 10px; border: none; background: #ff9800; color: white; border-radius: 0 4px 4px 0; cursor: pointer; font-size: 16px;">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+</body>
+</html>
